@@ -12,15 +12,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CalculatorControllerTest {
 
-    @NotNull
-    private static Stream<Arguments> provideParamsForTest(){
-        return Stream.of(
-                Arguments.of(5.0,3.0),
-                Arguments.of(4.0,3.0),
-                Arguments.of(2.0,3.0)
-        );
-    }
-
     private final CalculatorService calculatorService = new CalculatorServiceImpl();
 
     @Test
