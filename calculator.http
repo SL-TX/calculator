@@ -1,0 +1,20 @@
+### Greetings
+GET http://localhost:8080/calculator
+
+### Plus
+GET http://localhost:8080/calculator/plus?num1=5&num2=5
+
+### Plus 2
+GET http://localhost:8080/calculator/plus?num1=5&num2=null
+
+### Minus
+GET http://localhost:8080/calculator/minus?num1=5&num2=5
+
+### multiply
+GET http://localhost:8080/calculator/multiply?num1=5&num2=5
+
+### divide
+GET http://localhost:8080/calculator/divide?num1=5&num2=5
+
+### divide 2
+GET http://localhost:8080/calculator/divide?num1=5&num2=0
